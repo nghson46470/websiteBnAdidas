@@ -1,0 +1,261 @@
+{
+  "products_men": [
+    {
+      "id": 1,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct1.png",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 2,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct2.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 3,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct3.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 4,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct4.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 5,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct5.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 6,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct6.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 7,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct7.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 8,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct8.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 9,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct9.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 10,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct10.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 11,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct11.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 12,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct12.jpg",
+      "price": "$213",
+      "quality": 15
+    }
+  ],
+  "products_women": [
+    {
+      "id": 1,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women1.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 2,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women2.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 3,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women3.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 4,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women4.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 5,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women5.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 6,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women6.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 7,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women7.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 8,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women8.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 9,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women9.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 10,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women10.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 11,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women11.jpg",
+      "price": "$213",
+      "quality": 15
+    },
+    {
+      "id": 12,
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women12.jpg",
+      "price": "$213",
+      "quality": 15
+    }
+  ],
+  "detailProduct": [
+    {
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women1.jpg",
+      "price": "$213",
+      "quality": 15,
+      "id": 1
+    },
+    {
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women2.jpg",
+      "price": "$213",
+      "quality": 15,
+      "id": 2
+    },
+    {
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women2.jpg",
+      "price": "$213",
+      "quality": 15,
+      "id": 3
+    },
+    {
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women6.jpg",
+      "price": "$213",
+      "quality": 15,
+      "id": 4
+    },
+    {
+      "name_products": "ESSENTIALS DOWN JACKET",
+      "img": "./image/product_women/product_women1.jpg",
+      "price": "$213",
+      "quality": 15,
+      "id": 5
+    }
+  ],
+  "login": [
+    {
+      "nameUser": "asdas",
+      "lastName": "aasd",
+      "user": "qwe",
+      "pass": "123",
+      "id": 2
+    },
+    {
+      "nameUser": "sad",
+      "lastName": "son",
+      "user": "alksfhdnnakfl",
+      "pass": "124412",
+      "id": 3
+    },
+    {
+      "nameUser": "asdas",
+      "lastName": "asd",
+      "user": "asdas",
+      "pass": "546",
+      "id": 4
+    },
+    {
+      "nameUser": "nguyen",
+      "lastName": "son",
+      "user": "hongson",
+      "pass": "123456",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "name": "ESSENTIALS DOWN JACKET",
+      "img": "./image/menproduct/menproduct8.jpg",
+      "price": "$213",
+      "quantity": "x1",
+      "index": 8,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

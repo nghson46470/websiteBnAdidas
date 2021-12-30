@@ -1,0 +1,1081 @@
+*{
+    margin: 0px 0px;
+    font-family:font;
+    padding: 0px 0px;
+    cursor:default
+    
+}
+
+@font-face{
+    font-family: font;
+    src: url(./Ubuntu/Ubuntu-Regular.ttf);
+}
+
+.un_href{
+    color: black;
+    text-decoration: none
+}
+
+#main{
+    position: relative;
+}
+
+.header_container{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 5;
+    top: 0px;
+    border-bottom: 0.5px solid rgba(182, 182, 182, 0.452);
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header_logo{
+    width: 100px;
+    height: 80px;
+    justify-self:end !important
+}
+
+.header_logo img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.header_navition{
+    box-sizing: border-box;
+        
+}
+
+.header_navition > ul{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.header_navition > ul >a >li{
+    list-style-type: none;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    transition:0.2s;
+    text-transform:uppercase;
+    font-weight: 1000;
+    
+}
+
+.header_navition > ul >a{
+    text-decoration: none;
+    color:black
+}
+
+.header_navition > ul >a >li:hover{
+    border-bottom: 3px solid;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.header_navition_sub{
+    display: flex;
+}
+
+.header_navition_sub a,
+.header_navition_login li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header_navition_sub_cart{
+    padding: 0px 30px;
+    font-size:25px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.cart_quantily{
+    position: absolute;
+    top: -7px;
+    right: 7px;
+    font-size:15px;
+    color:rgb(252, 65, 65);
+    background-color:black;
+    font-weight:700;
+    border-radius: 50px;
+    opacity: 0.8;
+    min-width:20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header_navition_login{
+    position:absolute;
+    right:0px;
+    top :0px
+}
+
+.header_navition_login ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+}
+
+.header_navition_login ul li,
+.header_navition_login li a{
+    list-style-type: none;
+    padding:5px 15px;
+    font-size:14px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.header_navition_login ul li:hover{
+    opacity:1
+}
+
+.banner_main{
+    height:550px;
+    background-clip:padding-box;
+    background-image: url(./image/without-stripes-xcat-fw21-oct-layers-womens-mh-small-d_tcm221-789124.jpg) ;
+    background-size: 100%;
+    padding: 0px 15px;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.banner--plr100{
+    padding: 0px 100px;
+    max-width:400px;
+    z-index: 2;
+}
+
+.banner--plr100 h1, .banner_text h4{
+    color: white;
+}
+
+.banner--plr100 button{
+    border: none;
+    display: block;
+    margin: 10px 0px;
+    padding : 15px;
+    background-color:white;
+    text-transform: uppercase;
+    box-Shadow : 12px 12px 15px -9px rgb(138, 136, 136);
+    font-weight: 1000;
+    transition: 0.2s;
+}
+
+
+.banner--plr100 button i{
+    padding:0px 15px;
+}
+
+.banner_text>a>button:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+ 
+.banner_text>a{
+    text-decoration: none;
+    color:black
+}
+
+
+.content_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.content_header ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+.content_header ul li{
+    padding:10px;
+    margin:0px 15px;
+    border: 1px solid rgb(177, 177, 177);
+}
+
+
+.content_product_main{
+    margin:30px 0px;
+    display: flex;
+    justify-content:center;
+}
+
+.content_product_main_item{
+   position: relative;
+   margin: 0px 10px
+}
+
+.content_header_item:hover{
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.content_product_main_item:hover .products-sub{
+    display: flex;
+    cursor: pointer;
+}
+
+.products-sub{
+    display: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.384);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size:25px
+}
+
+.content_text_sub{
+    display:flex;
+    border-top: 1px solid rgb(187, 187, 187); 
+    border-bottom: 1px solid rgb(187, 187, 187); 
+    margin: 30px 0px;
+}
+
+.content_text_sub > h5{
+    padding: 25px  100px;
+    font-size:15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity:0.5
+}
+
+.content_text_sub > h5:hover{
+    background-color:rgb(187, 187, 187)
+}
+
+.content_text_sub--opa{
+    opacity: 1 !important;
+}
+
+.product_new_arrivals_container{
+    position: relative;
+
+}
+
+.product_new_arrivals_container_sub--pd{
+    overflow: hidden;
+    margin:0px 120px;
+
+}
+
+.product_new_arrivals_container_sub,
+.product_trending_container_sub{
+    width: 150%;
+    transition:0.5s;
+}
+
+.product--display_none{
+    display: none;
+}
+
+.product_new_arrivals{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    background-color:rgb(255, 255, 255);
+    margin:0px 10px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.product_new_arrivals:hover .product_layer {
+    display: flex;
+}
+
+.product_new_arrivals *:hover{
+    cursor: pointer !important;
+}
+
+.product_Men_list{
+
+
+}
+
+.product_layer {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #0000004b;
+    flex-direction: column;
+    justify-content:center;
+    display:none;
+}
+
+.product_layer button{
+    margin: 10px;
+    padding:10px;
+    background-color: black;
+    border:none;
+    color:white;
+    font-weight: 1000;
+    transition:0.8s;
+
+}
+
+.product_layer button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.next_page{
+    position: absolute;
+    z-index: 3;
+    top: 150px;
+    bottom: 150px;
+    font-size:50px;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+.next_page p{
+    cursor: pointer;
+}
+
+.next_page:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: #738f9c18;
+}
+
+.next_right{
+    right:70px;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.next_left{
+    left:70px;
+    border-radius: 100px 0px 0px 100px;
+}
+
+
+
+.product_new_arrivals_img{
+    width: 100%;
+    height: 250px;
+}
+
+.product_new_arrivals_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.product_new_arrivals_text{
+    padding:15px 5px;
+}
+
+.product_new_arrivals_text h6
+,.content_footer_product h6{
+    opacity: 0.5;
+}
+
+.product_new_arrivals_text h2{
+    color:rgba(199, 30, 30, 0.377);
+    background-color:#EDE734;
+    width: 30%;
+    transition:0.3s
+}
+
+.product_new_arrivals:hover h2{
+    color: rgb(207, 2, 2);
+    width: 100%;
+}
+
+.content_footer_container{
+    margin: 50px 0px 0px 0px;
+    border-top: 1px solid rgba(134, 134, 134, 0.575);
+
+    display: flex;
+    justify-content:center
+}
+
+
+.content_footer_product{
+    width: 230px;
+    height: 350px;
+    padding: 50px 15px;
+
+}
+
+.content_footer_product_video,
+.content_footer_product_img{
+
+    width: 100%;
+    height: 300px;
+}
+
+
+.content_footer_product_video video,
+.content_footer_product_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content_footer_product h4{
+    padding: 10px 0px;
+    text-decoration:solid;
+}
+
+.content_footer_product_text:hover{
+    cursor: pointer;
+}
+
+.content_footer_product h4:hover{
+    opacity: 0.5;
+}
+
+.footer_info_store{
+    display: flex;
+    justify-content: center;
+    background-color:#E9ECEF;
+}
+
+.footer_info_store_text{
+    padding:50px;
+    width: 30%;
+    height: 40%;
+}
+.footer_info_store_text P{
+    padding:15px 0px;
+}
+
+.footer_info_store_text h5{
+    font-weight: 10;
+    font-size: 14px;
+}
+
+.footer_signup{
+    display: flex;
+    justify-content: center;
+    background-color: #EDE734;
+}
+
+.footer_signup h1,.footer_signup button{
+    margin:30px;
+    width: 30%;
+}
+
+.footer_signup button{
+    border: none;
+    background-color:black;
+    width:20%;
+    color:white;
+    font-weight: 1000;
+    transition:0.3s
+}
+
+.footer_signup button i{
+    padding:15px
+}
+
+.footer_signup button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer_info_main{
+    display:flex;
+    justify-content: center;
+    background-color: #363738;
+}
+
+.footer_info_main_sub{
+    width: 30%;
+    padding:30px;
+    color:white;
+
+}
+
+.footer_info_main_sub a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding:10px;
+    font-family: font;
+}
+
+
+
+.footer_info_main p{
+    padding:10px
+}
+
+.footer_info_main p:hover{
+    cursor: pointer;
+    opacity:0.7
+}
+
+
+/* begin form login */
+
+.modal,.help{
+    /* width: 100%;
+    height: 100%; */    
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #0000003d;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    animation: animation-modal 0.5s ease ;
+    z-index: 5;
+}
+
+@keyframes animation-modal {
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+    
+    
+}
+
+.modal.open,.help.open{
+    display: flex;
+}
+
+/* .modal.hide{
+    display: none;
+} */
+
+.modal-body,.help-body{
+    background-color: rgb(23, 93, 150);
+    width: 600px;
+    position: relative;
+}
+
+.help-body{
+    background-color: rgb(150, 23, 23);
+}
+
+p.text-login-sub,p.text-help-sub {
+    padding: 15px;
+    font-size: 28px;
+    color: white;
+}
+
+.modal-header,.frame-btn-login,.help-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modal i.icon-close-modal,.help i.icon-close-help {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    z-index: 3;
+}
+
+.modal i.icon-close-modal:hover,
+.help i.icon-close-help:hover {
+    cursor: pointer;
+    opacity: 0.3;
+    background-color: #ffffff;
+}
+
+label.text-login,label.text-help {
+    display: block;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+input.text-user {
+    width: 90%;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 0;
+}
+
+button.btn-login,button.btn-send {
+    background-color: #738f9c;
+    border: 0px;
+    outline: 0px;
+    padding: 5px 30px;
+    margin: 20px;
+    font-size: 15px;
+    font-weight:550;
+    color: #ffffff;
+}
+
+button.btn-login:hover,
+button.btn-send:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+a.sign-up {
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    padding: 15px;
+    color: white;
+}
+
+/* product menu */
+
+.title{
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    padding: 15px;
+}
+
+.banner_productmen{
+    margin-top:0px !important;
+    position: relative;
+  
+}
+
+.banner_productmen video{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+}
+
+.banner_text_product_men h1,.banner_text_product_men h4{
+    color:black
+}
+
+.banner_text_product_men button{
+    color:white;
+    background-color: black;
+}
+
+.product_men_container{
+    margin-top:100px;
+    background-color: #E9ECEF;
+    padding: 50px 0px
+}
+
+.product_men_container_main{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.product_men_main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.product_men_main>div{
+    margin-top: 15px 
+}
+
+
+/* CART */
+
+.cart-container,.cart-total{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.cart-container table,
+.cart-total table{
+    
+    width: 80%;
+    border-collapse:collapse;
+
+}
+
+.cart-container table td,
+.cart-total table td{
+    justify-content: center;
+    border:1px solid rgb(189, 188, 188);
+    text-align: center;
+}
+
+.cart-container table td:nth-child(2){
+    padding: 0px 30px;
+}
+
+.cart-container table td img{
+    width: 50px
+}
+
+.cart-total table td{
+    background-color:#738f9c;
+    font-size:25px;
+}
+
+.cart-pay{
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px
+}
+
+.cart-pay button{
+    border: none;
+    background-color:black;
+    width:20%;
+    height:50px;
+    color:white;
+    font-weight: 1000;
+    transition:0.3s;
+    font-size: large;
+    cursor: pointer;
+    transition:0.2
+}
+
+.cart-pay button:hover{
+    opacity: 0.8;
+}
+
+.cart-delete{
+    color: rgb(255, 43, 43);
+}
+
+.cart-delete:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* register */
+
+.container_form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container_form>div{
+    margin:15px 50px;
+    width: 35%;
+    
+    
+}
+
+.form_login p,
+.form_login>h2{
+    padding:15px 0px
+}
+
+.form-signup_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.form_login  .form-signup{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding:15px 30px;
+    margin: 15px 0px ;
+    border:1px solid black;
+}
+
+.form-signup_facebook{
+    color:#1877F2;
+    border:1px solid #1877F2 !important;
+}
+
+.form-signup_twitter{
+    color:#f21890;
+    border:1px solid #f21890 !important;
+}
+
+.form_login>.text-register{
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    margin: 15px 0px;
+    border:1px solid black;
+}
+
+/* .form_login > .sex{
+    margin-right: 30px;
+
+}
+
+.form_login > .sex_radio,
+.form_login > .sex{
+    font-weight: 700;
+    width: 25px;
+    height: 25px;
+    background-color:white
+} */
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .form_login .text--opa {
+    opacity: 0.5;
+   
+    display: block;
+  }
+
+  .form_login .btn-register{
+    margin: 15px 0px;
+    padding:15px 50px;
+    background-color:black;
+    border: none;
+    color: white;
+    font-weight: 700;
+    box-Shadow : 12px 12px 15px -9px rgb(138, 136, 136);
+   
+  }
+
+  .description_register p{
+      margin:15px 5px;
+      font-weight: 50;
+      
+  }
+
+  .description_register p >i{
+      margin-right: 15px;
+      
+  }
+
+  .description_register img{
+      margin-top: 30px;
+      width: 100%;
+  }
+
+  .form-signup:hover,
+  .btn-register:hover{
+      opacity: 0.7;
+      cursor: pointer;
+  }
+
+
+  /* product details */
+
+  .content_details{
+      display: flex;
+      width: 100%;
+      margin-top: 80px;
+  }
+
+  .product_details{
+      width: 70%;
+  }
+  .product_details img{
+      width: 100%;
+  }
+
+  .product_details_bar{
+     width: 30%;
+  }
+
+  .product_details_sub{
+      display: flex;
+      height: 50px;
+  }
+  .product_details_sub 
+  .text_product_details_sub{
+      width: 40%;
+      height:100%
+  }
+
+  .imgs_product_details_sub{
+      width: 60%;
+      height:100%
+  }
+
+  .product_details_description{
+      display: flex;
+      justify-content:space-between;
+  }
+
+  .product_details_description > div{
+      width: 40%;
+      margin:50px
+  }
+
+  .product_details_description_img img{
+      width: 100%;
+     
+  }
+
+  .product_details_description_text h4{
+    margin: 15px 0px;
+  }
+
+  .product_details_bar_container{
+      padding:30px
+  }
+
+  .header_product_details_bar{
+      display:flex;
+      justify-content: space-between;
+  }
+
+  .header_product_details_evaluate i{
+      color:#9e9601
+  }
+
+  .content_product_details_bar h4,
+  .content_product_details_bar h5{
+    margin:30px 0px
+  }
+
+  .product_details_bar_size{
+      display:flex;
+
+  }
+
+  .product_details_bar_size input{
+    width: 50%;
+    height: 30px;
+    font-size:30px;
+    background-color:#000000;
+    color:white;
+    border:none;
+    text-align: center;
+  }
+
+  .product_info_size{
+      display:flex;
+      justify-content:space-between;
+      margin: 15px 0px;
+  }
+
+  .content_product_details_bar BUTTON{
+      margin:15px 0px;
+      border:none;
+      background-color:#000000;
+      color:white;
+      padding:20px 30px;
+      font-weight: 600;
+      box-Shadow : 12px 12px 15px -9px rgb(138, 136, 136);
+      width: 100%;
+  }
+
+  .content_product_details_bar BUTTON i{
+      margin-left:80px;
+      font-weight: 600;
+  }
+
+  .content_product_details_bar p{
+      margin: 15px 0px;
+      font-size:14px
+  }
+
+  .content_product_details_bar BUTTON:hover,
+  .content_product_details_bar input:hover,
+  .content_product_details_bar p:hover{
+      cursor: pointer;
+  }
+
+  .content_product_details_bar p:hover{
+      background-color:black;
+      color: white;
+  }
+
+  .content_product_details_bar BUTTON:hover,
+  .content_product_details_bar input:hover{
+      opacity: 0.8;
+  }
